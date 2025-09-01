@@ -1,0 +1,26 @@
+{
+  "name": "nodejskertaus",
+  "version": "1.0.0",
+  "description": "Kerrataan Node-js:n käyttöönottoa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiViOpetus/NodeJsKertaus.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "MikaV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiViOpetus/NodeJsKertaus/issues"
+  },
+  "homepage": "https://github.com/TiViOpetus/NodeJsKertaus#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  }
+}
