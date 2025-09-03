@@ -20,6 +20,9 @@ const PORT = process.env.PORT || 8080;
 // Määritellään sovelluksen käyttämät hakemistot
 app.use(express.static('public'));
 
+// URL parser
+app.use(express.urlencoded({ extended: true }));
+
 // Määritellään sivumallit (templates)
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
